@@ -35,6 +35,10 @@ body {
   text-align: center;
 }
 
+.botao:hover {
+  transform: scale(0.9); /* Diminui o tamanho para 90% ao passar o mouse */
+} 
+
 /* Manter tamanho fixo dos botões e garantir quebra de linha */
 @media (min-width: 500px) {
   .botao {
